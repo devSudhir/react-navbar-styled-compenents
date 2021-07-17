@@ -27,6 +27,17 @@ const Nav = styled.nav`
     color: aqua;
     padding: 5px 10px;
   }
+  @media all and (max-width: 500px) {
+    & {
+      background-color: coral;
+    }
+    img {
+      display: none;
+    }
+    a {
+      font-size: 8px;
+    }
+  }
 `;
 export default function App() {
   return (
